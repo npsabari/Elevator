@@ -18,5 +18,12 @@ struct elevator_{
     personList* passengerList;    
 };
 
+elevator* create_new_elevator(int , int);
+void move_up(elevator *);
+void move_down(elevator *);
+void stop_elv(elevator *);
+void unload_person(elevator *, person *);
+void add_person(elevator *, person *);
+
 #endif
 

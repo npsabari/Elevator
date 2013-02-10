@@ -18,4 +18,10 @@ struct personList_{
     struct personList_* next;
 };
 
+person* create_new_person(int, int, int, int);
+int delete_elmt(personList **, person *);
+int list_length(personList *);
+void add_elmt(personList **, person *);
+int compareTo(person *, person *);
+
 #endif
