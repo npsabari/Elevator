@@ -6,7 +6,7 @@
 
 * Creation Date : 09-02-2013
 
-* Last Modified : Sunday 10 February 2013 11:16:17 PM IST
+* Last Modified : Friday 22 March 2013 04:16:23 PM IST
 
 * Created By : npsabari
 
@@ -14,10 +14,10 @@ _._._._._._._._._._._._._._._._._._._._._.*/
 
 #include <stdlib.h>
 #include <string.h>
-#include "elevator.h"
-#include "person.h"
+#include "../headers/elevator.h"
+#include "../headers/person.h"
 
-elevator* create_new _elevator(int _capacity, int _maxwt){
+elevator* create_new_elevator(int _capacity, int _maxwt){
     elevator* tmp = (elevator *)malloc(sizeof(elevator));
     tmp->capacity = _capacity;
     tmp->maxWt = _maxwt;
@@ -30,9 +30,13 @@ elevator* create_new _elevator(int _capacity, int _maxwt){
 }
 
 void move_up(elevator* elv){
-    if(elv->curLevel < MAX_LEVEL){
+    if(elv->curLevel < MAXLEVEL){
         elv->curLevel += 1;
         elv->isMov = 2;
+    }
+    else{
+        elv->curLevel = 7;
+        elv->isMov = 1;
     }
 }
 
@@ -41,11 +45,15 @@ void move_down(elevator* elv){
         elv->curLevel -= 1;
         elv->isMov = 1;
     }
+    else{
+        elv->curLevel = 0;
+        elv->isMov = 2;
+    }
 }
 
 void stop_elv(elevator* elv){
-    if(isMov != 0){
-        isMov = 0;
+    if(elv->isMov != 0){
+        elv->isMov = 0;
     }
 }
 
@@ -58,7 +66,7 @@ void unload_person(elevator* elv, person* _perv){
 
 void add_person(elevator* elv, person* _perv){
     add_elmt(&(elv->passengerList), _perv);
-    elv->curWt = _prev->wt;
+    elv->curWt = _perv->wt;
     elv->curCount += 1;
 }
 

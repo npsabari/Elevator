@@ -1,7 +1,9 @@
 #ifndef PERSON_H
 #define PERSON_H
 
-typedef struct person_ Person;
+#define MAX_PERSONS 16 
+
+typedef struct person_ person;
 
 struct person_{
     int uniqueId;
@@ -20,6 +22,7 @@ struct personList_{
 
 person* create_new_person(int, int, int, int);
 int delete_elmt(personList **, person *);
+int delete_elmt1(personList **, int );
 int list_length(personList *);
 void add_elmt(personList **, person *);
 int compareTo(person *, person *);

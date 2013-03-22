@@ -6,7 +6,7 @@
 
 * Creation Date : 11-02-2013
 
-* Last Modified : Monday 11 February 2013 12:08:08 AM IST
+* Last Modified : Friday 22 March 2013 04:16:22 PM IST
 
 * Created By : npsabari
 
@@ -14,10 +14,10 @@ _._._._._._._._._._._._._._._._._._._._._.*/
 
 #include <stdlib.h>
 #include <string.h>
-#include "floor.h"
-#include "person.h"
+#include "../headers/floor.h"
+#include "../headers/person.h"
 
-floor* create_new_node(int _level){
+floor* create_new_floor(int _level){
     floor* tmp = (floor *)malloc(sizeof(floor));
     tmp->levelNo = _level;
     return tmp;

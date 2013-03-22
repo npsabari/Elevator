@@ -3,7 +3,7 @@
 
 #include "person.h"
 
-#define MAX_LEVEL 7
+#define MAXLEVEL 7
 
 typedef struct elevator_ elevator;
 

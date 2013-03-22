@@ -1,0 +1,194 @@
+------------------------Time stamp 0-------------------------------
+Elevator 1 is at 0	Elevator 2 is at 0
+------------------------Time stamp 1-------------------------------
+Elevator 1 is at 0	Elevator 2 is at 0
+Person 1 wants to go from 2 to 7
+------------------------Time stamp 2-------------------------------
+Elevator 1 is at 0	Elevator 2 is at 1
+Person 2 wants to go from 5 to 1
+------------------------Time stamp 3-------------------------------
+Elevator 1 is at 1	Elevator 2 is at 2
+Person 3 wants to go from 7 to 4
+------------------------Time stamp 4-------------------------------
+Elevator 1 is at 2	Elevator 2 is at 2
+Person 1 is getting into the elevator
+------------------------Time stamp 5-------------------------------
+Elevator 1 is at 2	Elevator 2 is at 3
+------------------------Time stamp 6-------------------------------
+Elevator 1 is at 2	Elevator 2 is at 5
+------------------------Time stamp 7-------------------------------
+Elevator 1 is at 3	Elevator 2 is at 6
+Person 1 who started at 2 is getting down at 7
+------------------------Time stamp 8-------------------------------
+Elevator 1 is at 4	Elevator 2 is at 7
+Person 3 is getting into the elevator
+------------------------Time stamp 9-------------------------------
+Elevator 1 is at 5	Elevator 2 is at 7
+Person 2 is getting into the elevator
+------------------------Time stamp 10-------------------------------
+Elevator 1 is at 6	Elevator 2 is at 6
+------------------------Time stamp 11-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 7
+------------------------Time stamp 12-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 7
+------------------------Time stamp 13-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 7
+------------------------Time stamp 14-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 7
+------------------------Time stamp 15-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 7
+------------------------Time stamp 16-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 7
+------------------------Time stamp 17-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 7
+------------------------Time stamp 18-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 7
+Person 4 wants to go from 5 to 6
+------------------------Time stamp 19-------------------------------
+Elevator 1 is at 5	Elevator 2 is at 7
+Person 4 is getting into the elevator
+------------------------Time stamp 20-------------------------------
+Elevator 1 is at 4	Elevator 2 is at 6
+------------------------Time stamp 21-------------------------------
+Elevator 1 is at 5	Elevator 2 is at 7
+------------------------Time stamp 22-------------------------------
+Elevator 1 is at 6	Elevator 2 is at 7
+Person 4 who started at 5 is getting down at 6
+Person 5 wants to go from 6 to 5
+------------------------Time stamp 23-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 7
+Person 6 wants to go from 3 to 5
+------------------------Time stamp 24-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 6
+Person 7 wants to go from 4 to 2
+------------------------Time stamp 25-------------------------------
+Elevator 1 is at 6	Elevator 2 is at 5
+Person 3 who started at 7 is getting down at 4
+------------------------Time stamp 26-------------------------------
+Elevator 1 is at 5	Elevator 2 is at 4
+------------------------Time stamp 27-------------------------------
+Elevator 1 is at 4	Elevator 2 is at 4
+Person 8 wants to go from 0 to 2
+------------------------Time stamp 28-------------------------------
+Elevator 1 is at 3	Elevator 2 is at 4
+Person 6 is getting into the elevator
+------------------------Time stamp 29-------------------------------
+Elevator 1 is at 2	Elevator 2 is at 4
+Person 2 who started at 5 is getting down at 1
+------------------------Time stamp 30-------------------------------
+Elevator 1 is at 0	Elevator 2 is at 4
+Person 8 is getting into the elevator
+------------------------Time stamp 31-------------------------------
+Elevator 1 is at 0	Elevator 2 is at 4
+------------------------Time stamp 32-------------------------------
+Elevator 1 is at 1	Elevator 2 is at 4
+Person 8 who started at 0 is getting down at 2
+------------------------Time stamp 33-------------------------------
+Elevator 1 is at 3	Elevator 2 is at 4
+------------------------Time stamp 34-------------------------------
+Elevator 1 is at 4	Elevator 2 is at 4
+Person 9 wants to go from 0 to 6
+------------------------Time stamp 35-------------------------------
+Elevator 1 is at 5	Elevator 2 is at 4
+Person 6 who started at 3 is getting down at 5
+Person 10 wants to go from 6 to 2
+------------------------Time stamp 36-------------------------------
+Elevator 1 is at 6	Elevator 2 is at 4
+Person 11 wants to go from 0 to 7
+Person 5 is getting into the elevator
+Person 10 is getting into the elevator
+------------------------Time stamp 37-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 4
+------------------------Time stamp 38-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 4
+------------------------Time stamp 39-------------------------------
+Elevator 1 is at 5	Elevator 2 is at 4
+Person 5 who started at 6 is getting down at 5
+------------------------Time stamp 40-------------------------------
+Elevator 1 is at 4	Elevator 2 is at 4
+------------------------Time stamp 41-------------------------------
+Elevator 1 is at 3	Elevator 2 is at 4
+Person 10 who started at 6 is getting down at 2
+------------------------Time stamp 42-------------------------------
+Elevator 1 is at 2	Elevator 2 is at 4
+------------------------Time stamp 43-------------------------------
+Elevator 1 is at 1	Elevator 2 is at 4
+Person 12 wants to go from 6 to 1
+------------------------Time stamp 44-------------------------------
+Elevator 1 is at 0	Elevator 2 is at 4
+Person 9 is getting into the elevator
+Person 11 is getting into the elevator
+------------------------Time stamp 45-------------------------------
+Elevator 1 is at 0	Elevator 2 is at 4
+Person 13 wants to go from 6 to 2
+------------------------Time stamp 46-------------------------------
+Elevator 1 is at 1	Elevator 2 is at 4
+Person 14 wants to go from 5 to 1
+------------------------Time stamp 47-------------------------------
+Elevator 1 is at 3	Elevator 2 is at 4
+Person 15 wants to go from 0 to 6
+------------------------Time stamp 48-------------------------------
+Elevator 1 is at 5	Elevator 2 is at 4
+Person 14 is getting into the elevator
+------------------------Time stamp 49-------------------------------
+Elevator 1 is at 6	Elevator 2 is at 4
+Person 9 who started at 0 is getting down at 6
+Person 12 is getting into the elevator
+Person 13 is getting into the elevator
+------------------------Time stamp 50-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 4
+Person 11 who started at 0 is getting down at 7
+Person 16 wants to go from 2 to 4
+------------------------Time stamp 51-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 4
+------------------------Time stamp 52-------------------------------
+Elevator 1 is at 5	Elevator 2 is at 4
+------------------------Time stamp 53-------------------------------
+Elevator 1 is at 4	Elevator 2 is at 4
+------------------------Time stamp 54-------------------------------
+Elevator 1 is at 3	Elevator 2 is at 4
+Person 13 who started at 6 is getting down at 2
+------------------------Time stamp 55-------------------------------
+Elevator 1 is at 1	Elevator 2 is at 4
+Person 14 who started at 5 is getting down at 1
+Person 12 who started at 6 is getting down at 1
+Person 17 wants to go from 7 to 2
+------------------------Time stamp 56-------------------------------
+Elevator 1 is at 0	Elevator 2 is at 4
+Person 18 wants to go from 3 to 0
+Person 15 is getting into the elevator
+------------------------Time stamp 57-------------------------------
+Elevator 1 is at 0	Elevator 2 is at 4
+------------------------Time stamp 58-------------------------------
+Elevator 1 is at 1	Elevator 2 is at 4
+Person 19 wants to go from 7 to 5
+------------------------Time stamp 59-------------------------------
+Elevator 1 is at 3	Elevator 2 is at 4
+Person 18 is getting into the elevator
+------------------------Time stamp 60-------------------------------
+Elevator 1 is at 4	Elevator 2 is at 4
+Person 20 wants to go from 6 to 1
+------------------------Time stamp 61-------------------------------
+Elevator 1 is at 5	Elevator 2 is at 4
+Person 15 who started at 0 is getting down at 6
+------------------------Time stamp 62-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 4
+Person 17 is getting into the elevator
+Person 19 is getting into the elevator
+------------------------Time stamp 63-------------------------------
+Elevator 1 is at 7	Elevator 2 is at 4
+Person 21 wants to go from 0 to 4
+------------------------Time stamp 64-------------------------------
+Elevator 1 is at 6	Elevator 2 is at 4
+------------------------Time stamp 65-------------------------------
+Elevator 1 is at 5	Elevator 2 is at 4
+Person 19 who started at 7 is getting down at 5
+------------------------Time stamp 66-------------------------------
+Elevator 1 is at 4	Elevator 2 is at 4
+------------------------Time stamp 67-------------------------------
+Elevator 1 is at 3	Elevator 2 is at 4
+------------------------Time stamp 68-------------------------------
+Elevator 1 is at 2	Elevator 2 is at 4
+Person 17 who started at 7 is getting down at 2
+Person 22 wants to go from 0 to 4
+Person 16 is getting into the elevator

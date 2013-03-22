@@ -6,7 +6,7 @@
 
 * Creation Date : 10-02-2013
 
-* Last Modified : Sunday 10 February 2013 11:22:43 PM IST
+* Last Modified : Friday 22 March 2013 04:16:24 PM IST
 
 * Created By : npsabari
 
@@ -14,15 +14,16 @@ _._._._._._._._._._._._._._._._._._._._._.*/
 
 #include <stdlib.h>
 #include <string.h>
-#include "person.h"
+#include "../headers/person.h"
 
 person* create_new_person(int _id, int _wt, int _strt, int _dest){
     person* tmp = (person *)malloc(sizeof(person));
     tmp->uniqueId = _id;
     tmp->wt = _wt;
-    tmp->strt = _strt;
+    tmp->start = _strt;
     tmp->dest = _dest;
     tmp->status = 2;
+    return tmp;
 }
 
 int delete_elmt(personList** _list, person* _perv){
@@ -34,7 +35,21 @@ int delete_elmt(personList** _list, person* _perv){
                 *_list = tmp->next;
             else
                 prevtmp->next = tmp->next;
-            free(tmp);
+            return 1;
+        }
+    }
+    return 0;
+}
+
+int delete_elmt1(personList** _list, int id){
+    personList* tmp, * prevtmp;
+    prevtmp = NULL;
+    for(tmp = *_list; tmp != NULL; prevtmp = tmp, tmp = tmp->next){
+        if(tmp->perv->uniqueId == id){
+            if(prevtmp == NULL)
+                *_list = tmp->next;
+            else
+                prevtmp->next = tmp->next;
             return 1;
         }
     }
@@ -50,8 +65,11 @@ void add_elmt(personList** _list, person* _perv){
         tmp->next = NULL;
     }
     else{
-        tmp->next = *_list;
-        *_list = tmp;
+        personList* tmp1 = *_list;
+        while(tmp1->next != NULL)
+            tmp1 = tmp1->next;
+        tmp1->next = tmp;
+        tmp->next = NULL;
     }
 }
 
